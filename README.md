@@ -23,7 +23,7 @@ where n is the number claimed, m is the number of dice in the game and 1/3 comes
 
 The proability formula for the paco claim is:
 
-$$P(at least n of m) = \sum_{k=n}^m \binom{m}{k} \cdot (\frac{1}{6})^k \cdot (1 - \frac{1}{6})^{m-k}$$
+$$P(\text{at least n of m}) = \sum_{k=n}^m \binom{m}{k} \cdot (\frac{1}{6})^k \cdot (1 - \frac{1}{6})^{m-k}$$
 
 where n is the number of pacos claimed and m is the number of dice in the game.
 
