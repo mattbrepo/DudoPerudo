@@ -13,17 +13,17 @@ I recently played [Dudo](https://en.wikipedia.org/wiki/Dudo) (aka Perudo) for th
 
 The proability for both claims can be calculated using the binomial formula:
 
-$$P(k; n, p) = \binom{n}{k} p^k (1-p)^{n-k}$$
+$$P(k; n, p) = \binom{n}{k} \cdot p^k \cdot (1-p)^{n-k}$$
 
 The proability formula for the numeric claim is:
 
-$$P(at least n of m) = \sum_{k=n}m \binom{m}{k} (\frac{1}{3})^k (1 - \frac{1}{3})^{m-k}$$
+$$P(at least n of m) = \sum_{k=n}^m \binom{m}{k} \cdot (\frac{1}{3})^k \cdot (1 - \frac{1}{3})^{m-k}$$
 
 where n is the number claimed, m is the number of dice in the game and 1/3 comes out of 2 / 6 (1 for the numeric value and 1 for the paco).
 
 The proability formula for the paco claim is:
 
-$$P(at least n of m) = \sum_{k=n}m \binom{m}{k} (\frac{1}{6})^k (1 - \frac{1}{6})^{m-k}$$
+$$P(at least n of m) = \sum_{k=n}^m \binom{m}{k} \cdot (\frac{1}{6})^k \cdot (1 - \frac{1}{6})^{m-k}$$
 
 where n is the number of pacos claimed and m is the number of dice in the game.
 
