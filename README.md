@@ -17,7 +17,7 @@ $$P(k; n, p) = \binom{n}{k} \cdot p^k \cdot (1-p)^{n-k}$$
 
 The proability formula for the numeric claim is:
 
-$$P(at least n of m) = \sum_{k=n}^m \binom{m}{k} \cdot (\frac{1}{3})^k \cdot (1 - \frac{1}{3})^{m-k}$$
+$$P(\text{at least n of m}) = \sum_{k=n}^m \binom{m}{k} \cdot (\frac{1}{3})^k \cdot (1 - \frac{1}{3})^{m-k}$$
 
 where n is the number claimed, m is the number of dice in the game and 1/3 comes out of 2 / 6 (1 for the numeric value and 1 for the paco).
 
